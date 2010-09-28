@@ -20,5 +20,8 @@ export MEMCACHED_SERVERS=localhost:11211
 source $ZSH/oh-my-zsh.sh
 
 export JAVA_HOME=/usr/lib/jvm/java-6-openjdk/
-
+export PATH=$PATH:~/dotfiles/git-achievements
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+alias gk="git checkout"
+alias git="git-achievements"
+
